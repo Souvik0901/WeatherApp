@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     justify-content: center;
@@ -7,7 +6,7 @@ body {
     margin: 0;
     background: #222;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://images.unsplash.com/photo-1508197149814-0cc02e8b7f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1095&q=80');
+    background-image: url('https://images.unsplash.com/photo-1490604001847-b712b0c2f967?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1853&q=80');
     font-size: 120%;
 }
 
@@ -21,7 +20,7 @@ body {
     margin: revert;
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,4 +57,14 @@ button:hover {
 
 h1.temp {
     margin: 0;
+    margin-bottom: 0.1em;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
 }
